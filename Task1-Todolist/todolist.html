@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="todolist.css">
+    <script src="todo.js" defer></script>
+    <style>
+        
+
+    </style>
+</head>
+<body>
+    <div class="nav"></div>
+
+    <div class="container items-center flex flex-col">
+        <h4>Todo List</h4>
+    
+        <div class="row">
+            <div class="left">
+                <label for="add new task">Add a new task</label><br>
+                <input type="text" class="input" placeholder="enter task">
+                <hr >
+            </div>
+            <div class="right">
+                <button class="btn" onclick="addtask()">Add Todo</button>
+            </div>
+        </div>
+
+        <div class="left-butn">
+            <ul class="tasklist"></ul>
+            <button class="butn" onclick="deleteselected()">Delete Selected</button>
+        </div>
+
+    </div>
+    <!-- <div class="head">
+        <h1>i am react developer</h1>
+
+    </div> -->
+</body>
+
+</body>
+</html>
